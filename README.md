@@ -58,5 +58,5 @@ skillcraft-todo-app/
 
 **Vaibhav Ravindra Nhayade**
 Web Development Intern – Skillcraft Technology
-*
+
 ---
