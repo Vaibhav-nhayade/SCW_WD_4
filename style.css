@@ -1,0 +1,122 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #181818;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.container {
+  background: #242424;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#taskInput {
+  flex: 1;
+}
+
+#taskDateTime {
+  flex: 0.9;
+}
+
+#addBtn {
+  background: #00b894;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#addBtn:hover {
+  background: #019874;
+}
+
+/* Task list styling */
+ul {
+  list-style: none;
+}
+
+li {
+  background: #333;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-date {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.completed .task-name {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button.edit,
+button.delete,
+button.complete {
+  background: #555;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+button.edit:hover {
+  background: #0984e3;
+}
+
+button.delete:hover {
+  background: #d63031;
+}
+
+button.complete:hover {
+  background: #00b894;
+}
