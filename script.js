@@ -2,7 +2,7 @@
 const taskInput = document.getElementById("taskInput");
 const taskDateTime = document.getElementById("taskDateTime");
 const addBtn = document.getElementById("addBtn");
-const taskList = document.getElementById("taskList");
+const taskList = document.getElementById("taskList"); 
 
 // Load tasks from local storage
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
