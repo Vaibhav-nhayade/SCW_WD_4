@@ -1,14 +1,10 @@
----
+### Skillcraft Technology – Web Development Internship (Task 4)
 
-# 📝 To-Do App
-
-### Skillcraft Technology – Web Development Internship (Task 2)
 
 ## Project Overview
 
 This project is part of **Task 2** for the **Web Development Internship at Skillcraft Technology**.
 The goal of this task is to **develop a basic To-Do application** that enables users to add and maintain tasks efficiently.
-
 The application helps users stay organized by allowing them to manage their daily activities through an interactive and easy-to-use interface.
 
 ---
@@ -22,27 +18,6 @@ The application helps users stay organized by allowing them to manage their dail
 *  **Delete Tasks:** Remove tasks that are no longer needed.
 *  **Local Storage (Optional):** Save tasks locally so data persists after page reload.
 
----
-
-## Tech Stack
-
-* **HTML5** – Structure of the app
-* **CSS3** – Styling and layout
-* **JavaScript (ES6)** – Functionality and logic
-
-
-## Project Structure
-
-```
-skillcraft-todo-app/
-│
-├── index.html         # Main HTML file
-├── style.css          # App styling
-├── script.js          # Main JavaScript logic
-└── README.md          # Documentation
-```
-
----
 
 ## Learning Outcomes
 
@@ -56,7 +31,6 @@ skillcraft-todo-app/
 
 ## Developed By
 
-**Vaibhav Ravindra Nhayade**
+**Vaibhav Nhayade**
 Web Development Intern – Skillcraft Technology
-
 ---
